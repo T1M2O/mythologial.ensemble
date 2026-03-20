@@ -5,13 +5,14 @@ import { getFirestore, collection, getDocs } from "https://www.gstatic.com/fireb
 
 // ⚠️ ここは後でFirebaseコンソールから取得したあなたの鍵（設定）に書き換えます
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
+  apiKey: "AIzaSyA--SZ43H3byLMS_lXhLI314vA8bQiNUIw",
+  authDomain: "mythological-ensemble.firebaseapp.com",
+  projectId: "mythological-ensemble",
+  storageBucket: "mythological-ensemble.firebasestorage.app",
+  messagingSenderId: "203353071568",
+  appId: "1:203353071568:web:dbfb0fd248ec97cb67e3d5",
+  measurementId: "G-9PQG60BF1S"
+}
 
 // Firebaseの初期化
 const app = initializeApp(firebaseConfig);
