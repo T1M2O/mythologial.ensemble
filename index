@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>極秘・バンドメンバー語録</title>
+  <style>
+    /* 最低限の見栄えを整えるCSS */
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: 0 auto; }
+    .hidden { display: none; }
+    .quote-card { border: 1px solid #ccc; padding: 15px; margin-bottom: 10px; border-radius: 8px; }
+    .quote-text { font-size: 1.2em; font-weight: bold; }
+    .quote-author { color: #666; text-align: right; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <h1>🎸 バンドメンバー語録</h1>
+
+  <div id="login-section">
+    <p>アクセスするにはログインが必要です。</p>
+    <input type="email" id="email" placeholder="メールアドレス" required>
+    <input type="password" id="password" placeholder="パスワード" required>
+    <button id="login-btn">ログイン</button>
+    <p id="error-msg" style="color: red;"></p>
+  </div>
+
+  <div id="quotes-section" class="hidden">
+    <button id="logout-btn">ログアウト</button>
+    <h2>語録一覧</h2>
+    <div id="quotes-container">
+      </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
